@@ -1,0 +1,66 @@
+body {
+    background-color: #333;
+    color: #fff; 
+    font-family: Arial, sans-serif; 
+}
+
+.earth-main {
+    max-width: 600px; 
+    margin: 0 auto;
+    padding: 100px;
+}
+
+.moon-main {
+    max-width: 600px; 
+    margin: 0 auto;
+    padding: 100px;
+}
+
+.planets {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 100px;
+
+}
+
+.planets a {
+    text-decoration: none;
+    color: #fff; 
+}
+
+.earth-main #earth{
+    width: 300px; 
+    height: auto;
+    border: #fff 10px solid;
+    border-radius: 50%; 
+}
+
+.earth-main #moon{
+    width: 100px; 
+    height: auto;
+    border-radius: 50%; 
+}
+
+.moon-main #earth{
+    width: 300px; 
+    height: auto;
+    border-radius: 50%; 
+}
+
+.moon-main #moon{
+    width: 100px; 
+    height: auto;
+    border: #fff 10px solid;
+    border-radius: 50%; 
+}
+
+h1 {
+    font-size: 2em;
+}
+
+p {
+    line-height: 1.5;
+    color: #ccc;
+}
